@@ -1542,3 +1542,105 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.02.07-04.50.04:399][948]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.02.07-04.50.04:408][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
 [2023.02.07-04.50.04:732][949]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.02.07-04.57.51:045][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.02.07-04.57.52:250][868]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.07-04.57.52:258][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.07-04.57.52:292][868]LogFileHelpers: 保存する新たな変更はありません！
+[2023.02.07-04.57.52:323][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.02.07-04.57.52:328][868]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.02.07-04.57.52:329][868]LogSavePackage: Moving '../../../../../../GitHub/UE5_BranchBool/BranchBool/Saved/ThirdPersonMap5FD85E164F3D7B8FC52AF1B709774176.tmp' to '../../../../../../GitHub/UE5_BranchBool/BranchBool/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.02.07-04.57.52:335][868]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.043
+[2023.02.07-04.57.52:342][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 1.01 sec)
+[2023.02.07-04.57.52:349][868]AssetCheck: New page: アセット保存：ThirdPersonMap
+[2023.02.07-04.57.52:349][868]LogContentValidation: Display: /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap を検証しています
+[2023.02.07-04.57.53:962][968]BlueprintLog: New page: ThirdPersonMap をコンパイル
+[2023.02.07-04.57.54:011][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.02.07-04.57.59:650][314]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.02.07-04.57.59:655][314]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.02.07-04.57.59:657][314]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.07-04.57.59:657][314]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.07-04.57.59:657][314]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 29 us)
+[2023.02.07-04.57.59:657][314]LogWorldPartition: Display: GenerateStreaming took 211 us (total: 725 us)
+[2023.02.07-04.57.59:657][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.07-04.57.59:657][314]PIE: New page: PIEセッション: ThirdPersonMap (2023/02/07 22:57:59)
+[2023.02.07-04.57.59:683][314]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.07-04.57.59:687][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004192s)
+[2023.02.07-04.57.59:687][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004240s)
+[2023.02.07-04.57.59:688][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.07-04.57.59:688][314]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.02.07-04.57.59:688][314]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.07-04.57.59:688][314]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.07-04.57.59:688][314]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.07-04.57.59:689][314]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.02.07-04.57.59:689][314]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 116 ms)
+[2023.02.07-04.57.59:689][314]LogPlayLevel: PIE: World Init took: (0.002328s)
+[2023.02.07-04.57.59:720][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.02.07-04.57.59:721][314]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.07-04.57.59:721][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.07-04.57.59:721][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.07-04.57.59:721][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.07-04.57.59:721][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.07-04.57.59:721][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.07-04.57.59:722][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.07-04.57.59:738][314]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.02.07-04.57.59:738][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.07-04.57.59:738][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.07-04.57.59:738][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.07-04.57.59:738][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.02.07-04.57.59:739][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.02.07-04.57.59:739][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.02.07-04.57.59:739][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.02.07-04.57.59:739][314]LogInit: FAudioDevice initialized.
+[2023.02.07-04.57.59:739][314]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.02.07-04.57.59:742][314]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.02.07-04.57.59:743][314]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.02.07-13.57.59
+[2023.02.07-04.57.59:744][314]LogWorld: Bringing up level for play took: 0.001410
+[2023.02.07-04.57.59:746][314]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.02.07-04.57.59:749][314]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2023.02.07-04.57.59:749][314]PIE: サーバーにログインしました
+[2023.02.07-04.57.59:750][314]PIE: PIE合計開始時間 0.095 秒。
+[2023.02.07-04.58.03:470][426]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.04:516][492]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.07:298][665]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.08:239][723]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.09:523][802]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.10:444][859]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.11:313][913]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.12:226][969]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.13:227][ 31]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.14:119][ 86]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.15:129][148]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.16:045][204]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.16:957][260]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを消した
+[2023.02.07-04.58.17:838][314]LogBlueprintUserMessages: [ThirdPersonMap_C_4] ライトを点けた
+[2023.02.07-04.58.19:984][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.07-04.58.19:984][446]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.07-04.58.19:984][446]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.07-04.58.19:984][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.07-04.58.19:984][446]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.02.07-04.58.19:999][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.07-04.58.20:004][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.07-04.58.20:037][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.07-04.58.20:037][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.07-04.58.20:039][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.07-04.58.20:045][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.02.07-04.58.20:070][447]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.02.07-04.58.27:411][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.02.07-04.58.28:523][837]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.07-04.58.28:533][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.07-04.58.28:602][837]LogFileHelpers: 保存する新たな変更はありません！
+[2023.02.07-04.58.28:632][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.07-04.58.28:638][837]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.02.07-04.58.28:638][837]LogSavePackage: Moving '../../../../../../GitHub/UE5_BranchBool/BranchBool/Saved/ThirdPersonMap9EE253EA441E07968161D884565A8A4C.tmp' to '../../../../../../GitHub/UE5_BranchBool/BranchBool/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2023.02.07-04.58.28:647][837]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.045
+[2023.02.07-04.58.28:655][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.13 sec)
+[2023.02.07-04.58.28:661][837]AssetCheck: New page: アセット保存：ThirdPersonMap
+[2023.02.07-04.58.28:661][837]LogContentValidation: Display: /Script/Engine.World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap を検証しています
+[2023.02.07-04.58.30:231][933]BlueprintLog: New page: ThirdPersonMap をコンパイル
+[2023.02.07-04.58.30:281][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
